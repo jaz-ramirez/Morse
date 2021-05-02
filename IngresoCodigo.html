@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./Morse.php" method="POST">
+        <fieldset>
+            <legend><h1>Traductor del lengaje Morse</h1></legend><br>
+            <h3>Selecciona la opción que deseas traducir</h3>
+            <select name="traduccion">
+                <option value="amorse" required>Del Español al Morse</option>
+                <option value="aespañol"required>Del Morse al Español</option>
+            </select>
+            <h3>Inserte el código</h3>
+            <textarea name="codigo" rows="12" cols="60"required></textarea>
+            <br>
+            <button type="submit">Traducir</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
